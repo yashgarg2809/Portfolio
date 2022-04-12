@@ -19,6 +19,10 @@ ul {
     padding-top: 8px;
 }
 
+a{
+    color:white;
+}
+
 nav {
     background-color: black;
     height: 2.2em;
