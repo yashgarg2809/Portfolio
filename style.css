@@ -1,78 +1,212 @@
-body {
-    background-color: lightskyblue;
-}
-
-li {
-    padding: 0px;
-    margin: 9.8%;
-    list-style-type: none;
+li{
+    list-style: none;
     display: inline;
-    color: white;
-    padding-top: 8px;
-    padding-bottom: 1px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
-
-}
-
-ul {
-    padding-top: 8px;
-}
-
-a{
+    padding: 1em;
+    margin:5%;
+    font-size: 1.2em;
+    font-weight: bold;
     color:white;
 }
 
-nav {
-    background-color: black;
-    height: 2.2em;
-    width: 100%;
-    border-radius: 15px;
-    margin-top: 20px;
+body{
+    background-color: rgb(155, 152, 152);
 }
 
-
-#name {
-    font-size: 80px;
-    display: inline;
-    float: left;
-    margin: 0.5em;
-
+#home{
+    background-color: rgb(240, 240, 240);
+    margin-top:1em;
+    padding: 1em;
+    border-radius: 5px;
+    display:flex;
 }
 
-#intro {
+#imageDiv{
+    
+    margin:10px;
+    width:30em;
+    height: 20em;
+}
+
+#homeContent p{
+    margin-left: 10px;
     font-size: 20px;
-
-
 }
 
-h2 {
-    font-size: 80px;
+
+
+#education {
+    background-color: rgb(240, 240, 240);
+    margin-top:1em;
+    padding: 1em;
+    border-radius: 5px;
+    display:flex;
+    flex-wrap: wrap;
 }
 
-.education div {
-    border: 2px solid black;
-    float: left;
-    width: 40em;
-    margin-left: 1em;
-    margin-top: 1em;
-    height: 500px;
+
+
+#schoolCard{
+    width: 45%;
+    align-content: center;
+    padding: 20px;
+    background-color: rgb(49, 42, 42);
+    border-radius: 20px;
+    margin-right: 10px;
+    height:18em;
+}
+#collegeCard{
+    width: 45%;
+    align-content: center;
+    padding: 20px;
+    background-color: rgb(49, 42, 42);
+    border-radius: 20px;
+    margin-right: 10px;
+    height:18em;
 }
 
-.hobbies div {
-    border: 2px solid black;
-    float: left;
-    width: 100%;
-    margin-left: 1em;
-    margin-top: 1em;
-    height: 500px;
+#schoolCard:hover{
+    width: 50%;
+    align-content: center;
+    padding: 1px;
+    background-color: rgb(105, 90, 90);
+    border-radius: 20px;
+    margin-right: 10px;
+    padding-top:10px;
+    height:20em;
+}
+#collegeCard:hover{
+    width: 50%;
+    align-content: center;
+    padding: 1px;
+    background-color: rgb(105, 90, 90);
+    border-radius: 20px;
+    margin-right: 10px;
+    padding-top:10px;
+    height:20em;
 }
 
-.contact div {
-    border: 2px solid black;
-    float: left;
-    width: 100%;
-    margin-left: 1em;
-    margin-top: 1em;
-    height: 500px;
+
+#education p{
+    color:white;
+    margin-left:auto;
+    margin-right:auto;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+}
+
+#skills{
+    background-color: rgb(240, 240, 240);
+    margin-top:1em;
+    padding: 1em;
+    border-radius: 5px;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+
+
+#skills div{
+    text-align: center;
+    margin: 10px;
+    padding:10px;
+    background-color: rgb(49,42,42);
+    width: 45%;
+    border-radius: 20px;
+    
+    
+}
+
+#skills div h2{
+    color: white;
+    font-weight: bold;
+}
+
+
+
+#skills div:hover{
+    text-align: center;
+    margin: 0px;
+    padding:10px;
+    background-color:  rgb(105, 90, 90);
+    width: 50%;
+    border-radius: 20px;
+    
+    
+}
+div#hi{
+    all:unset;
+    width:100%;
+    text-align: center;
+}
+div#hi:hover{
+    
+    all:unset;
+    width:100%;
+    text-align: center;
+}
+
+
+
+#achievements{
+    background-color: rgb(240, 240, 240);
+    margin-top:1em;
+    padding: 1em;
+    border-radius: 5px;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+#achievements div{
+    text-align: center;
+    margin: 10px;
+    padding:10px;
+    background-color: rgb(49,42,42);
+    width: 45%;
+    border-radius: 20px;
+    
+    
+}
+
+#achievements div h2{
+    color: white;
+    font-weight: bold;
+}
+
+
+
+#achievements div:hover{
+    text-align: center;
+    margin: 0px;
+    padding:10px;
+    background-color:  rgb(105, 90, 90);
+    width: 50%;
+    border-radius: 20px;
+    
+    
+}
+div#hello{
+    all:unset;
+    width:100%;
+    text-align: center;
+}
+div#hello:hover{
+    
+    all:unset;
+    width:100%;
+    text-align: center;
+}
+
+#contactMe  {
+    background-color: rgb(240, 240, 240);
+    margin-top:1em;
+    padding: 1em;
+    border-radius: 5px;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+
+a{
+    text-decoration: none;
 }
