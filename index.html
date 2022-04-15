@@ -5,63 +5,138 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
-
 <body>
-    <nav>
+    <div id="navbar"
+        style="border:2px solid black; background-color: black; border-radius: 10px;position: fixed;width:98%; align-self: center; margin:1px; padding:1px; ">
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#education">Education</a>
-            </li>
-            <li><a href="#hobbies">Hobbies</a></li>
-            <li><a href="#contact">Contact Me</a></li>
+            <a href = "#home"><li>Home</li></a>
+            <a href = "#education"><li>Education</li></a>
+            <a href = "#skills"><li>Skills</li></a>
+            <a href = "#achievements"><li>Achievements</li></a>
+            <a href = "#contactMe"><li>Contact Me</li></a>
         </ul>
-
-    </nav>
-
-    <div class="home" id="home" style="margin-top: 20px; height :500px; border: 2px solid black;
-    ;">
-        <h1 id="name">YASH GARG</h1>
-        <p id="intro">I am Yash Garg. I am first year undergraduate student from the department of mathematics enrolled
-            in its BSc 4 year course for Mathematics and Computing.I am a boarded of Pandit Madan Mohan Malviya Hall of
-            Residence.</p>
     </div>
-
-
-    <div class="education" >
-        <div>
-            <h2 id="education">Schooling</h2>
-            <p>My Schooling was done in Darbari Lal DAV Model School, Pitampura.</p>
+    <div style="height:4em;"></div>
+    <div id="home">
+        
+        <div id="imageDiv">
+            <img src="home.png" alt="Image couldn't be loaded." style="width:100%; height: 100%;border-radius: 20px;;">
         </div>
-        <div>
-            <h2>College</h2>
-            <p>I am student of IIT Kharagpur.</p>
-        </div>
-    </div>
-    <div class="hobbies" >
-        <div id="hobbies">
-            <h2>Hobbies</h2>
-            <p>My hobbies include plying cricket, badminton, playing guitar, binging movies and series.</p>
+        <div id="homeContent">
+            <h2 style="font-size: 80px; margin-left: 10px; margin-bottom:5px;">Yash Garg</h2>
+            <p><b>Hey</b><br> My name is Yash Garg. I am first year undergraduate student from the department of
+                Mathematics enrolled in its BS 4 year couse for Mathematics and Computing.I am a boarder of Pandit Madan
+                Malviya Hall of Residence.I am from New Delhi.<br><br>I am an Ambrivert on my way to be extrovert.</p>
         </div>
 
     </div>
 
+    <div id="education">
+        <div style="width: 100%;">
+            <p style="font-size:60px; font-weight:bold; color:black; margin-bottom: 10px;">Education</p>
+        </div>
+        <div id="schoolCard">
+            <div>
+                <img src="school.jpg" alt="Image couldn't be loaded."
+                    style="width:60%;height:100%; margin-left: auto;margin-right:auto;display: block;">
+            </div>
+            <div>
+                <p><b>Darbari Lal DAV Model School</b> is situated in Pitampura, New Delhi.</p>
+            </div>
+        </div>
+        <div id="collegeCard">
+            <div>
+                <img src="college.jpg" alt="Image couldn't be loaded."
+                    style=" width:60%;height:100%;margin-left: auto;margin-right:auto;display: block;">
+            </div>
 
-    <div class="contact" >
+            <div>
+                <p>
+                    <b>Indian Institute of Technology, Kharagpur</b></bIndian> is situated in obviously, Kharagpur.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="skills">
+        <div  id ="hi">
+            <p style="font-size:60px; font-weight:bold; color:black; margin-bottom: 10px;">Skills</p>
+        </div>
         <div>
-            <h2 id="contact">Contact Me</h2>
+            <h2>CSS</h2>
+        </div>
+        <div>
+            <h2>HTML</h2>
+        </div>
+        <div>
+            <h2>CPP</h2>
+        </div>
+        <div>
+            <h2>Python</h2>
+        </div>
+        <div>
+            <h2>C</h2>
+        </div>
+        <div>
+            <h2>Java</h2>
+        </div>
+    </div>
+
+
+    <div id="achievements">
+        <div id ="hello">
+            <p style="font-size:60px; font-weight:bold; color:black; margin-bottom: 10px;">Achievements</p>
+        </div>
+        <div>
+            <h2>
+                JSTSE Scholar
+            </h2>
+            
+        </div><div>
+            <h2>
+                NTSE Scholar
+            </h2>
+            
+        </div><div>
+            <h2>
+                JEE Mains under 4k 
+            </h2>
+            
+        </div><div>
+            <h2>
+                JEE Advanced under 1.5k 
+            </h2>
+            
+        </div>
+    </div>
+
+
+
+    <div id="contactMe">
+        <div style="text-align: center;width:100%" >
+            <p style="font-size:60px; font-weight:bold; color:black; margin-bottom: 10px;">Contact Me</p>
+        </div>
+
+        <div style="width: 100%; font-size: 20px;text-align: center;">
             <form action="">
-                Name:<input type="text">
-                Email Address:<input type="text">
-                Phone Number:<input type="text">
-                <input type="submit" value="Submit">
-                <input type="reset">
+            Name: <input type="text" name="Name" id="" required><br><br>
+            Email Id: <input type="text" name="EmailId" id="" required><br><br>
+            Contact Number: <input type="number" name="phno" id="" required maxlength="10"><br><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset"><br><br><br>
+            Connect with me on: 
+            <a href=  https://instagram.com/yashgarg2809 target="_blank"><img src = "ig.png" alt = "Ig" style="width: 30px;height:30px;"></a>
+            <a href=  https://www.facebook.com/profile.php?id=100073806524699 target="_blank"><img src = "fb.png" alt = "fb" style="width: 30px;height:30px;"></a>
             </form>
+
         </div>
     </div>
+
 
 </body>
 
